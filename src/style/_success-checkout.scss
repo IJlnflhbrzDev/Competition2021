@@ -1,0 +1,48 @@
+.empty-3-1 {
+	padding: 5rem 2rem;
+}
+
+.empty-3-1 .main-img {
+	width: 83.333333%;
+	margin-bottom: 2.5rem;
+	object-fit: cover;
+	object-position: center;
+}
+
+.empty-3-1 .title-text {
+	font: 600 1.875rem/2.25rem Poppins, sans-serif;
+	color: #000000;
+	letter-spacing: 0.025em;
+	margin-bottom: 0.75rem;
+}
+
+.empty-3-1 .caption-text {
+	margin-bottom: 3rem;
+	color: #9c9c9c;
+	font-size: 1rem;
+	letter-spacing: 0.025em;
+	line-height: 1.75rem;
+}
+
+.empty-3-1 .btn-view {
+	font: 600 1.125rem/1.75rem Poppins, sans-serif;
+	padding: 1rem 2rem;
+	border-radius: 0.75rem;
+	background-color: #ff7c57;
+	transition: 0.3s;
+}
+
+.empty-3-1 .btn-view:hover {
+	background-color: #ff9779;
+	transition: 0.3s;
+}
+
+@media (min-width: 576px) {
+	.empty-3-1 {
+		padding: 8rem 2rem;
+	}
+
+	.empty-3-1 .main-img {
+		width: auto;
+	}
+}

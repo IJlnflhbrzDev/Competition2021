@@ -1,0 +1,169 @@
+#pilihan-produk {
+	a {
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+			text-decoration-color: #ce1700;
+		}
+		.icon {
+			img {
+				background-size: cover;
+				object-fit: cover;
+				background-position: center;
+				// width: 100%;
+				height: 100px;
+			}
+		}
+	}
+}
+.kategori-produk .btn:focus,
+.kategori-produk .btn:active {
+	outline: none !important;
+}
+
+.kategori-produk .title-text {
+	padding-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.kategori-produk .text-title {
+	font: 600 2.25rem/2.5rem Poppins, sans-serif;
+	color: #121212;
+	margin-bottom: 0.625rem;
+}
+
+.kategori-produk .text-caption {
+	color: #121212;
+	font-weight: 300;
+}
+
+.kategori-produk .column {
+	padding: 2rem 2.25rem;
+}
+
+.kategori-produk .icon {
+	margin-bottom: 1.5rem;
+}
+
+.kategori-produk .icon-title {
+	font: 600 19px Poppins, sans-serif;
+	margin-bottom: 0.625rem;
+	color: #121212;
+}
+
+.kategori-produk .icon-caption {
+	font: 400 1rem/1.625 Poppins, sans-serif;
+	letter-spacing: 0.025em;
+	color: #565656;
+}
+
+.kategori-produk .card {
+	padding: 1.75rem;
+	background-color: #fff7f4;
+	border-radius: 0.75rem;
+	border: 1px solid #ce1700;
+}
+
+.kategori-produk .card-title {
+	font: 600 1.5rem/2rem Poppins, sans-serif;
+	margin-bottom: 0.625rem;
+	color: #000000;
+}
+
+.kategori-produk .card-caption {
+	font: 300 1rem/1.5rem Poppins, sans-serif;
+	color: #565656;
+	letter-spacing: 0.025em;
+	margin-bottom: 0;
+}
+
+.kategori-produk .btn-card {
+	font: 700 1rem/1.5rem Poppins, sans-serif;
+	background-color: #ce1700;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 100%;
+	border-radius: 0.75rem;
+	margin-bottom: 1.25rem;
+}
+
+.kategori-produk .btn-card:hover {
+	--tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.kategori-produk .btn-outline {
+	font: 400 1rem/1.5rem Poppins, sans-serif;
+	color: #979797;
+	border: 1px solid #979797;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 100%;
+	border-radius: 0.75rem;
+}
+
+.kategori-produk .btn-outline:hover {
+	border: 1px solid #ce1700;
+	color: #ce1700;
+}
+
+.kategori-produk .card-text {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.kategori-produk .grid-padding {
+	padding: 0rem 1rem 3rem;
+}
+.parent-icon {
+	display: block;
+	padding: 10px;
+	&:hover {
+		box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	}
+}
+
+@media (min-width: 576px) {
+	.kategori-produk .grid-padding {
+		padding: 0rem 2rem 3rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.kategori-produk .grid-padding {
+		padding: 0rem 4rem 3rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.kategori-produk .grid-padding {
+		padding: 1rem 6rem 3rem;
+	}
+
+	.kategori-produk .column {
+		padding: 0rem 2.25rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.kategori-produk .grid-padding {
+		padding: 1rem 10rem 3rem;
+	}
+
+	.kategori-produk .card-btn-space {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.kategori-produk .btn-outline,
+	.kategori-produk .btn-card {
+		width: 95%;
+		float: right;
+	}
+}
+
+@media (max-width: 980px) {
+	.kategori-produk .card-btn-space {
+		width: 100%;
+	}
+}

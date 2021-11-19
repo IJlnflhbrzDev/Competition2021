@@ -1,0 +1,151 @@
+.all-product {
+	a {
+		text-decoration: none;
+	}
+	a.parent-link {
+		&:hover {
+			h5 {
+				text-decoration: underline;
+			}
+		}
+	}
+	.card.card-portrait {
+		margin-bottom: 20px;
+		box-shadow: #31353b1f 0px 1px 6px 0px;
+		border-radius: 9px;
+		overflow: hidden;
+		padding: 0;
+		img.card-img-top {
+			width: 100%;
+			max-height: 300px;
+			object-fit: cover;
+			background-size: cover;
+			background-position: center;
+		}
+		.card-body {
+			padding: 8px;
+			h5 {
+				margin-bottom: 4px;
+				font-size: 0.86rem;
+				color: rgba(49, 53, 59, 0.96);
+				max-width: 100%;
+				max-height: 100%;
+				text-overflow: ellipsis;
+				word-break: break-all;
+				overflow: hidden;
+
+				line-height: 1.5;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+			}
+			.card-price {
+				margin-bottom: 4px;
+				color: rgba(49, 53, 59, 0.96);
+				opacity: 1;
+				font-size: 1rem;
+				font-weight: bold;
+				align-items: flex-end;
+				line-height: 1.43;
+			}
+			.card-discount {
+				display: flex;
+				-webkit-box-align: center;
+				align-items: center;
+				margin-bottom: 4px;
+				.card-discount-title {
+					width: 30px;
+					height: 20px;
+					border-radius: 3px;
+					background-color: #ffeaef;
+					font-size: 0.714286rem;
+					font-weight: bold;
+					color: #ff5c84;
+					display: flex;
+					-webkit-box-pack: center;
+					justify-content: center;
+					-webkit-box-align: center;
+					align-items: center;
+				}
+				.card-discount-potongan-harga {
+					font-size: 0.714286rem;
+					color: rgba(49, 53, 59, 0.44);
+					text-decoration: line-through;
+					max-width: 100px;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					margin: 0px 0px 0px 4px;
+				}
+			}
+
+			.card-lokasi-toko {
+				a {
+					display: flex;
+					align-items: center;
+					color: rgba(49, 53, 59, 0.54);
+					font-size: 0.85rem;
+					line-height: 11px;
+					margin-top: 7px;
+					margin-bottom: 7px;
+					justify-content: center;
+					text-decoration: none;
+					svg {
+						margin-right: 4px;
+					}
+					.card-lokasi-toko-title {
+						white-space: nowrap;
+						text-overflow: ellipsis;
+
+						width: 100%;
+					}
+				}
+			}
+
+			.card-progress {
+				margin-top: 10px;
+				.progress {
+					width: 100%;
+					height: 6px;
+				}
+			}
+
+			.rating-toko {
+				color: rgba(49, 53, 59, 0.68);
+				display: flex;
+				align-items: center;
+				overflow: hidden;
+				width: 100%;
+				svg {
+					color: gold;
+					margin-right: 4px;
+				}
+				.rating-toko-number {
+					display: flex;
+					font-size: 0.85rem;
+					color: rgba(49, 53, 59, 0.68);
+					align-items: center;
+					line-height: normal;
+					height: 12px;
+				}
+				.rating-toko-pemisah {
+					margin: 1px 4px 0px;
+					height: 10px;
+					width: 1px;
+					background: rgba(49, 53, 59, 0.32);
+				}
+				.rating-toko-terjual {
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					overflow: hidden;
+					font-weight: normal;
+					height: auto;
+					line-height: normal;
+					margin-bottom: 0px;
+					padding: 0px;
+					font-size: 0.85rem;
+				}
+			}
+		}
+	}
+}

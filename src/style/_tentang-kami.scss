@@ -1,0 +1,83 @@
+.tentang-kami .btn:focus,
+.tentang-kami .btn:active {
+	outline: none !important;
+}
+
+.tentang-kami {
+	padding: 5rem 0rem;
+}
+
+.tentang-kami .img-hero {
+	width: 100%;
+	margin-bottom: 3rem;
+}
+
+.tentang-kami .right-column {
+	width: 100%;
+}
+
+.tentang-kami .title-text {
+	font: 600 1.875rem/2.25rem Poppins, sans-serif;
+	margin-bottom: 2.5rem;
+	letter-spacing: -0.025em;
+	color: #121212;
+}
+
+.tentang-kami .title-caption {
+	font: 500 1.5rem/2rem Poppins, sans-serif;
+	margin-bottom: 1.25rem;
+	color: #121212;
+}
+
+.tentang-kami .circle {
+	font: 500 1.25rem/1.75rem Poppins, sans-serif;
+	height: 3rem;
+	width: 3rem;
+	margin-bottom: 1.25rem;
+	border-radius: 9999px;
+	background-color: #ff8c80;
+}
+
+.tentang-kami .text-caption {
+	font: 400 1rem/1.75rem Poppins, sans-serif;
+	letter-spacing: 0.025em;
+	color: #565656;
+}
+
+.tentang-kami .btn-learn {
+	font: 600 1rem/1.5rem Poppins, sans-serif;
+	padding: 1rem 2.5rem;
+	background-color: #ff8c80;
+	transition: 0.3s;
+	letter-spacing: 0.025em;
+	border-radius: 0.75rem;
+}
+
+.tentang-kami .btn-learn:hover {
+	background-color: #ff8c80;
+	transition: 0.3s;
+}
+.tentang-kami .img-hero img {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	object-fit: cover;
+	padding: 10px;
+}
+
+@media (min-width: 992px) {
+	.tentang-kami .img-hero {
+		width: 100%;
+
+		margin-bottom: 0;
+	}
+
+	.tentang-kami .right-column {
+		width: 100%;
+	}
+
+	.tentang-kami .circle {
+		margin-right: 1.25rem;
+		margin-bottom: 0;
+	}
+}
